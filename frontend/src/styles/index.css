@@ -1,0 +1,10 @@
+@import '@fontsource-variable/inter';
+@import './tokens.css';
+@import './base.css';
+@import './icons.css';
+@import './layout.css';
+@import './components.css';
+@import './content.css';
+@import './reports.css';
+@import './mockup.css';
+@import './print.css';

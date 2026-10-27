@@ -1,0 +1,87 @@
+@page {
+  size: A4;
+  margin: 12mm 11mm 14mm;
+  @bottom-left { content: "AnnaBooks  ·  Client feature guide"; font-family: "Segoe UI", Calibri, Arial, sans-serif; font-size: 8pt; color: #64748b; }
+  @bottom-right { content: counter(page); font-family: "Segoe UI", Calibri, Arial, sans-serif; font-size: 8pt; color: #64748b; }
+}
+html.is-print { height: auto; background: #fff; font-size: 12.5px; font-family: "Segoe UI", Calibri, Arial, sans-serif; }
+html.is-print .chapter { break-before: page; }
+html.is-print .feature { margin: 0 0 10px; }
+html.is-print .facts, html.is-print .cap-grid { grid-template-columns: 1fr 1fr; }
+html.is-print .subscribe, html.is-print .fc { break-inside: avoid; }
+html.is-print .steps { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+html.is-print .feature { grid-template-columns: 215px minmax(0, 1fr); gap: 8px 10px; margin-bottom: 14px; }
+html.is-print .step { break-inside: avoid; grid-template-columns: minmax(0, 1fr) 46%; gap: 6px; padding: 6px 8px; }
+html.is-print .shot-form, html.is-print .shot-cards { gap: 2px 4px; }
+html.is-print .sf { padding: 1px 4px 2px; }
+html.is-print .sf i { font-size: 8px; }
+html.is-print .sf b, html.is-print .sb, html.is-print .sc, html.is-print .shot-links, html.is-print .shot-msg, html.is-print .shot-cards > div { font-size: 9px; }
+html.is-print .shot-title { font-size: 10px; }
+html.is-print .shot-table { font-size: 8.5px; }
+html.is-print .shot-table th, html.is-print .shot-table td { padding: 1px 3px; }
+html.is-print .sf.on, html.is-print .sb.on, html.is-print .shot-cards > div.on { box-shadow: none; }
+html.is-print .step p { font-size: 11.5px; }
+html.is-print .fc, html.is-print .step, html.is-print .shot, html.is-print .full, html.is-print .fc-n { box-shadow: none; }
+html.is-print .step:hover { transform: none; }
+html.is-print .fc { padding: 8px; }
+html.is-print .fc-n { min-height: 42px; margin-bottom: 12px; padding: 5px 7px 6px 42px; font-size: 10.5px; }
+html.is-print .fc-n b { font-size: 11px; }
+html.is-print .fc-n small { font-size: 10px; }
+html.is-print .fc-n::before { left: 7px; top: 6px; width: 28px; height: 28px; background-size: 14px; }
+html.is-print .fc-ask::before { background-size: contain; }
+html.is-print .fc-n::after { left: 20px; top: 35px; bottom: -13px; }
+html.is-print .fc-n + .fc-n .fc-head::before { left: 17px; top: -1px; width: 8px; height: 6px; }
+html.is-print .fc-num { left: 25px; top: 1px; width: 15px; height: 15px; font-size: 9px; }
+html.is-print .fc-yes, html.is-print .fc-no { margin-top: 3px; font-size: 10px; }
+html.is-print .fc::before, html.is-print .steps::before { font-size: 9px; }
+html.is-print .step-head { gap: 7px; margin-bottom: 4px; }
+html.is-print .step-num { width: 20px; height: 20px; font-size: 11px; box-shadow: 0 0 0 2px #ccfbf1; }
+html.is-print .step h4 { font-size: 12.5px; }
+html.is-print .step-head { padding-bottom: 4px; }
+html.is-print .step + .step::after { display: none; }
+html.is-print .step p.note { padding: 4px 6px; font-size: 11px; }
+html.is-print .shot-top { padding: 3px 6px; }
+html.is-print .shot-body { padding: 4px; gap: 3px; }
+html.is-print .shot-row { padding: 2px 6px; }
+html.is-print .shot-row.on, html.is-print .step-num, html.is-print .fc-save { box-shadow: none; }
+html.is-print .fc { background: #fff; }
+html.is-print .step-num { background: #0f766e; }
+html.is-print h2, html.is-print h3, html.is-print .lead { break-after: avoid; }
+html.is-print .rpt { padding: 8px 10px; box-shadow: none; break-inside: avoid; }
+html.is-print .rpt-txns { break-inside: auto; }
+html.is-print .rpt-pair { grid-template-columns: minmax(0, 1fr); }
+html.is-print .rpt-table { font-size: 10.5px; }
+html.is-print .rpt-table td, html.is-print .rpt-table th { padding: 3px 6px; }
+html.is-print .rpt-table:has(tr.sec, tr.sub-head) tr.acct td:first-child { padding-left: 16px; }
+html.is-print .rpt-notes { font-size: 10.5px; padding: 6px 10px; }
+html.is-print .rpt-cards b { font-size: 14px; }
+html.is-print .agree, html.is-print .hr-card { box-shadow: none; }
+html.is-print .rpt { padding: 0 10px 8px; }
+html.is-print .rpt-kicker { margin: 0 -10px 8px; padding: 5px 10px 5px 50px; font-size: 10px; }
+html.is-print .rpt-kicker::before { left: 10px; width: 6px; height: 6px; margin-top: -3px; box-shadow: 10px 0 0 #fbbf24, 20px 0 0 #34d399; }
+html.is-print .m-fld { min-width: 0; padding: 2px 7px; }
+html.is-print .m-fld b { font-size: 10.5px; }
+html.is-print .m-btn { padding: 3px 8px; font-size: 10.5px; box-shadow: none; }
+html.is-print .rpt-table tbody tr.acct:hover td { background: transparent; }
+html.is-print body { background: #fff; font-size: 12.5px; }
+html.is-print .topbar, html.is-print .sidebar, html.is-print .rail, html.is-print .page-loader, html.is-print .nav-progress, html.is-print .sec-nav, html.is-print .content-head, html.is-print .page-chrome, html.is-print .pager,
+html.is-print .site-footer, html.is-print .read-progress, html.is-print .scrim, html.is-print .search-pop, html.is-print .lightbox,
+html.is-print .toast, html.is-print .skip-link, html.is-print .hero-actions, html.is-print .hero-stats,
+html.is-print .screens { display: none !important; }
+html.is-print .layout { display: block; max-width: none; }
+html.is-print .main { padding: 0; }
+html.is-print .doc { max-width: none; }
+html.is-print .page { display: block !important; animation: none; }
+html.is-print .feature { display: grid !important; }
+html.is-print .feature.feature-report { display: block !important; }
+html.is-print .fc { position: static; }
+html.is-print .part-head { break-before: page; }
+html.is-print .part-head h1.chapter { font-size: 24px; }
+html.is-print .feature > h2 { font-size: 18px; }
+html.is-print .page-home > h1 { font-size: 26px; background: none; color: #0f766e; }
+html.is-print, html.is-print * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+@media print {
+  .topbar, .sidebar, .rail, .page-loader, .nav-progress, .sec-nav, .content-head, .page-chrome, .pager, .site-footer, .read-progress, .search-pop, .lightbox, .toast, .hero-actions { display: none !important; }
+  .layout { display: block; }
+  .main { padding: 0; }
+}

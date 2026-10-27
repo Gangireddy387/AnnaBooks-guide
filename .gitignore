@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+
+# About 1 GB of rendered marketing videos; share them through a drive instead of git.
+marketing/

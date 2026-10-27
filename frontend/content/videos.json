@@ -1,0 +1,190 @@
+[
+    {
+        "slug":  "annabooks-overview",
+        "episode":  1,
+        "title":  "AnnaBooks at a glance",
+        "subtitle":  "Accounting for consulting and staffing companies",
+        "page":  "how-to-use",
+        "transcript":  [
+                           "Meet AnnaBooks: accounting software for consulting and staffing companies.",
+                           "Sign in once, and every company you run keeps its own separate set of books.",
+                           "The Overview map shows how sales, consultants, bills, and the bank connect, and each box opens its screen.",
+                           "Customer Center shows each customer\u0027s invoices, receipts, and balance in one place.",
+                           "Bill consultant hours straight from timesheets, and follow every invoice until it is paid.",
+                           "Enter vendor bills, then pay them by check, bank, or card. The books update for you.",
+                           "Banking keeps your accounts, deposits, transfers, credit cards, and loans together.",
+                           "Profit and loss, balance sheet, and aging reports are ready the moment you save.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  68.48,
+        "uploadDate":  "2026-10-22"
+    },
+    {
+        "slug":  "getting-started",
+        "episode":  2,
+        "title":  "Getting started",
+        "subtitle":  "Create your account and your first company",
+        "page":  "part-start-and-company-onboarding",
+        "transcript":  [
+                           "Getting started with AnnaBooks takes a few minutes.",
+                           "On the AnnaBooks start page, choose Client to keep your company\u0027s books.",
+                           "Create your account with your name and email, then verify the six digit code we send you.",
+                           "Pick the guided Start Setup, or Quick Setup if you already know accounting.",
+                           "Enter your company details once: name, federal I D, address, and time zone.",
+                           "Choose your industry. I T consulting adds consultants, timesheets, and payroll to your menus.",
+                           "Your new company appears as a card. Click it to open the books.",
+                           "The first time you open it, load a ready-made chart of one hundred thirteen accounts.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  63.5,
+        "uploadDate":  "2026-10-22"
+    },
+    {
+        "slug":  "company-home",
+        "episode":  3,
+        "title":  "Inside your company",
+        "subtitle":  "Overview, Tracker, and your team",
+        "page":  "part-inside-the-company",
+        "transcript":  [
+                           "Here is your company\u0027s home in AnnaBooks.",
+                           "Overview is a map of your daily work. Every box opens the screen for that job.",
+                           "Tracker lists open invoices with their due days, so you know exactly who to follow up with.",
+                           "Invite your accountant or your team members to work in the same company.",
+                           "Your profile, password, and session timer live under Settings.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  39.41,
+        "uploadDate":  "2026-10-22"
+    },
+    {
+        "slug":  "customers-and-invoicing",
+        "episode":  4,
+        "title":  "Customers and invoicing",
+        "subtitle":  "From invoice to payment",
+        "page":  "part-customers-and-sales",
+        "transcript":  [
+                           "Customers and invoicing in AnnaBooks.",
+                           "Customer Center shows a customer\u0027s balance, invoices, and receipts at a glance.",
+                           "Add a customer once, with payment terms, contacts, and billing addresses.",
+                           "Create an invoice. Consulting companies add timesheet hours right on it.",
+                           "Every invoice shows its status, from sent, to partially paid, to received.",
+                           "Receive Payment applies money to open invoices, like the two thousand six hundred eighty dollars Cedar Schools still owes.",
+                           "The receivables aging report shows who owes you, and for how long.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  56.33,
+        "uploadDate":  "2026-10-22"
+    },
+    {
+        "slug":  "consultants-and-payroll",
+        "episode":  5,
+        "title":  "Consultants, time, and payroll",
+        "subtitle":  "Built for consulting and staffing firms",
+        "page":  "part-consultants-time-and-payroll",
+        "transcript":  [
+                           "Consultants, timesheets, and payroll, built in.",
+                           "Consultant Center keeps each consultant\u0027s agreement, bill rate, pay rate, and timesheets.",
+                           "See your whole bench of consultants in one list.",
+                           "Timesheet Summary shows every week\u0027s hours by consultant and customer.",
+                           "Contract Tracking shows which contracts are active, expiring, or expired.",
+                           "Record payroll from timesheets, and keep the history of every pay run.",
+                           "Payroll reports show earnings, reimbursements, deductions, and net pay.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  52.12,
+        "uploadDate":  "2026-10-22"
+    },
+    {
+        "slug":  "vendors-and-bills",
+        "episode":  6,
+        "title":  "Vendors and bills",
+        "subtitle":  "From bill to check",
+        "page":  "part-vendors-bills-and-the-vendor-portal",
+        "transcript":  [
+                           "Vendors and bills in AnnaBooks.",
+                           "Vendor Center brings each supplier\u0027s bills and payments together.",
+                           "Enter a bill once, and it posts what you owe to accounts payable.",
+                           "The bills list shows every bill\u0027s status, from open to paid.",
+                           "Pay Bill lists a vendor\u0027s open bills. Tick them and pay by check, bank, or card.",
+                           "Vendor Payments keeps every payment on record, like check twenty two oh four to Deskline.",
+                           "Write and print checks straight from the payments you have recorded.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  49.65,
+        "uploadDate":  "2026-10-22"
+    },
+    {
+        "slug":  "banking",
+        "episode":  7,
+        "title":  "Banking, cards, and loans",
+        "subtitle":  "Every account in one place",
+        "page":  "part-banking-cards-and-loans",
+        "transcript":  [
+                           "Banking, cards, and loans in AnnaBooks.",
+                           "Bank Accounts groups your checking and savings accounts under each bank.",
+                           "Make Deposit moves received payments from undeposited funds into the bank.",
+                           "Transfer funds between your accounts in a few clicks.",
+                           "Track company credit cards, their charges, and every card payment.",
+                           "Loans record what you borrowed and each repayment, principal and interest.",
+                           "Every movement lands in the general ledger, line by line.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  48.08,
+        "uploadDate":  "2026-10-22"
+    },
+    {
+        "slug":  "inventory-and-records",
+        "episode":  8,
+        "title":  "Inventory and company records",
+        "subtitle":  "Stock, accounts, and journal entries",
+        "page":  "part-inventory-and-company-records",
+        "transcript":  [
+                           "Inventory and company records in AnnaBooks.",
+                           "Inventory Centre shows stock on hand, prices, and the history of each item.",
+                           "Stock adjustments record count changes, with a reason for each one.",
+                           "The chart of accounts comes ready made, and you can add your own accounts.",
+                           "Journal entries handle anything no other screen covers.",
+                           "The Transactions Center lists every posted transaction in one place.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  43.36,
+        "uploadDate":  "2026-10-22"
+    },
+    {
+        "slug":  "reports",
+        "episode":  9,
+        "title":  "Reports",
+        "subtitle":  "Know where the business stands",
+        "page":  "part-reports",
+        "transcript":  [
+                           "Reports in AnnaBooks.",
+                           "Reports Home groups every report by area of the business.",
+                           "Profit and loss shows income and expenses for any period, on an accrual or cash basis.",
+                           "The balance sheet shows what you own, what you owe, and your equity.",
+                           "The trial balance checks that debits and credits match.",
+                           "Cash flow shows where the cash came from and where it went.",
+                           "Export any report to C S V, or print it for your files.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  47.51,
+        "uploadDate":  "2026-10-22"
+    },
+    {
+        "slug":  "settings",
+        "episode":  10,
+        "title":  "Settings",
+        "subtitle":  "Make AnnaBooks fit your company",
+        "page":  "part-settings-and-a-connected-week",
+        "transcript":  [
+                           "Settings make AnnaBooks fit your company.",
+                           "Company details, address, and currency live in one place.",
+                           "Account Configuration turns features such as bonus, discount, and sales tax on when you need them.",
+                           "Brand your invoices and documents with your own logo and colors.",
+                           "Connect Gmail or Outlook to send invoices from your own address.",
+                           "Export your data any time. Your books stay yours.",
+                           "Start your AnnaBooks account at annaccounting.com. The full guide is at guide.annaccounting.com."
+                       ],
+        "duration":  44.41,
+        "uploadDate":  "2026-10-22"
+    }
+]

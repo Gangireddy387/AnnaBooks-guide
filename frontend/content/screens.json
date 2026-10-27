@@ -1,0 +1,939 @@
+{
+  "client-sign-up-and-sign-in": [
+    {
+      "file": "start-page.jpg",
+      "caption": "<b>Welcome to AnnaBooks</b>: the Client and Vendor doors",
+      "alt": "AnnaBooks start page with Client and Vendor sign-in choices"
+    },
+    {
+      "file": "client-sign-in.jpg",
+      "caption": "<b>Sign in to your account</b> with Maya's email",
+      "alt": "AnnaBooks client sign-in form with email and password"
+    },
+    {
+      "file": "client-sign-up.jpg",
+      "caption": "<b>Create your account</b>, before the email code",
+      "alt": "AnnaBooks sign-up form with first name, last name and email"
+    }
+  ],
+  "companies-home": [
+    {
+      "file": "companies-with-northline.jpg",
+      "caption": "<b>Your Companies</b> with the Northline Staffing LLC card",
+      "alt": "Your Companies page showing the Northline Staffing LLC company card marked Owner"
+    },
+    {
+      "file": "companies-after-login.jpg",
+      "caption": "A new account: <b>No Companies Found</b>",
+      "alt": "Your Companies page with no companies yet"
+    }
+  ],
+  "full-company-setup": [
+    {
+      "file": "setup-1-company-info.jpg",
+      "caption": "Step 1 <b>Company Information</b>",
+      "alt": "Company setup wizard step 1, company information for Northline Staffing LLC"
+    },
+    {
+      "file": "setup-2-industry.jpg",
+      "caption": "Step 2 <b>Industry &amp; organization</b>: ITConsulting, LLC",
+      "alt": "Company setup wizard step 2 with ITConsulting industry and LLC organization type"
+    },
+    {
+      "file": "setup-3-terminology.jpg",
+      "caption": "Step 3 <b>Customize Your Terminology</b>",
+      "alt": "Company setup wizard terminology step"
+    },
+    {
+      "file": "setup-4-services-products.jpg",
+      "caption": "Step 4 <b>Services &amp; Products Setup</b>",
+      "alt": "Company setup wizard services and products step"
+    },
+    {
+      "file": "setup-5-accounts.jpg",
+      "caption": "Step 5 <b>Review Income &amp; Expenses</b>",
+      "alt": "Company setup wizard income and expense accounts step"
+    },
+    {
+      "file": "setup-8-congratulations.jpg",
+      "caption": "Step 8 <b>Congratulations!</b> and Go to Dashboard",
+      "alt": "Company setup wizard final step with Go to Dashboard"
+    }
+  ],
+  "short-setup-for-an-experienced-user": [
+    {
+      "file": "welcome-new-company.jpg",
+      "caption": "<b>Experienced User?</b> Quick Setup, or <b>New to AnnaBooks?</b> Start Setup",
+      "alt": "Welcome to AnnaBooks page with Quick Setup and Start Setup cards"
+    }
+  ],
+  "optional-encryption-of-names-and-notes": [
+    {
+      "file": "setup-7-encryption.jpg",
+      "caption": "Wizard step 7 <b>Setup Encryption</b>",
+      "alt": "Company setup wizard encryption step with optional company password"
+    }
+  ],
+  "what-the-open-company-remembers": [
+    {
+      "file": "first-open-chart-prompt.jpg",
+      "caption": "First open: <b>Set Up Your Chart of Accounts</b>",
+      "alt": "Set Up Your Chart of Accounts prompt when a new company opens for the first time"
+    },
+    {
+      "file": "overview-after-chart.jpg",
+      "caption": "<b>Loading Chart of Accounts</b>: 113 accounts",
+      "alt": "Loading Chart of Accounts progress window"
+    }
+  ],
+  "company-dashboard": [
+    {
+      "file": "route-company__budget.jpg",
+      "caption": "Company area with the sidebar menus",
+      "alt": "AnnaBooks company screen with the sidebar menu"
+    }
+  ],
+  "overview-work-map": [
+    {
+      "file": "route-overview.jpg",
+      "caption": "<b>Dashboard Overview</b>: the work map",
+      "alt": "AnnaBooks Dashboard Overview work map linking invoices, payments, bills and banking"
+    }
+  ],
+  "tracker": [
+    {
+      "file": "route-tracker.jpg",
+      "caption": "<b>Tracker</b> with Northline's open invoices",
+      "alt": "AnnaBooks Tracker listing open customer invoices"
+    }
+  ],
+  "owner-invites-users": [
+    {
+      "file": "route-settings__users.jpg",
+      "caption": "Settings › <b>Users</b>",
+      "alt": "AnnaBooks users and members page"
+    },
+    {
+      "file": "route-settings__users__invite.jpg",
+      "caption": "<b>Invite a User</b> form",
+      "alt": "AnnaBooks invite user form"
+    }
+  ],
+  "profile-password-and-session": [
+    {
+      "file": "route-settings__update-profile.jpg",
+      "caption": "<b>Update profile</b>",
+      "alt": "AnnaBooks update profile page"
+    },
+    {
+      "file": "route-settings__change-password.jpg",
+      "caption": "<b>Change password</b>",
+      "alt": "AnnaBooks change password page"
+    },
+    {
+      "file": "route-settings__session-alert.jpg",
+      "caption": "<b>Session expiry alert</b> settings",
+      "alt": "AnnaBooks session expiry alert settings"
+    }
+  ],
+  "customer-center-new-customer-and-the-customer-list": [
+    {
+      "file": "route-customers__center.jpg",
+      "caption": "<b>Customer Center</b> with Harbor Clinic selected",
+      "alt": "AnnaBooks Customer Center with Harbor Clinic transactions"
+    },
+    {
+      "file": "route-customers__list.jpg",
+      "caption": "<b>Customers</b> list",
+      "alt": "AnnaBooks customers list for Northline Staffing"
+    },
+    {
+      "file": "route-customers__new.jpg",
+      "caption": "<b>New Customer</b> form",
+      "alt": "AnnaBooks new customer form"
+    }
+  ],
+  "sales-items": [
+    {
+      "file": "route-customers__items.jpg",
+      "caption": "<b>Customers Items</b>",
+      "alt": "AnnaBooks customer sales items list"
+    },
+    {
+      "file": "route-customers__new-service-item.jpg",
+      "caption": "<b>New service item</b>",
+      "alt": "AnnaBooks new service item form"
+    }
+  ],
+  "customer-invoice": [
+    {
+      "file": "route-customers__new-invoice.jpg",
+      "caption": "<b>New Invoice</b>",
+      "alt": "AnnaBooks new customer invoice screen"
+    },
+    {
+      "file": "route-customers__invoices.jpg",
+      "caption": "<b>Invoices</b> list with March invoices",
+      "alt": "AnnaBooks invoices list with Northline March 2026 invoices"
+    }
+  ],
+  "create-invoice-from-consultant-time": [
+    {
+      "file": "route-customers__create-invoice.jpg",
+      "caption": "<b>Create Invoice</b> from consultant time",
+      "alt": "AnnaBooks create invoice from consultant timesheets"
+    }
+  ],
+  "cash-sale": [
+    {
+      "file": "route-customers__new-cash-sale.jpg",
+      "caption": "<b>Cash Sale</b>",
+      "alt": "AnnaBooks new cash sale screen"
+    }
+  ],
+  "credit-memo": [
+    {
+      "file": "route-customers__new-credit-memo.jpg",
+      "caption": "<b>Credit Memo</b>",
+      "alt": "AnnaBooks new credit memo screen"
+    }
+  ],
+  "customer-prepayment": [
+    {
+      "file": "route-customers__prepayment.jpg",
+      "caption": "<b>Customer Prepayment</b>",
+      "alt": "AnnaBooks customer prepayment screen"
+    }
+  ],
+  "receive-payment": [
+    {
+      "file": "route-customers__receive-payment.jpg",
+      "caption": "<b>Receive Payment</b>",
+      "alt": "AnnaBooks receive payment screen"
+    }
+  ],
+  "customer-refund-and-the-invoice-list": [
+    {
+      "file": "route-customers__refund.jpg",
+      "caption": "<b>Customer Refund</b>",
+      "alt": "AnnaBooks customer refund screen"
+    },
+    {
+      "file": "route-customers__invoices.jpg",
+      "caption": "<b>Invoices</b> with status filters",
+      "alt": "AnnaBooks invoice list"
+    }
+  ],
+  "sample-customer-records": [
+    {
+      "file": "route-customers__list.jpg",
+      "caption": "Northline's customers in the app",
+      "alt": "Northline Staffing customers list in AnnaBooks"
+    },
+    {
+      "file": "route-customers__invoices.jpg",
+      "caption": "Northline's March invoices in the app",
+      "alt": "Northline Staffing March invoices in AnnaBooks"
+    }
+  ],
+  "consultant-center-and-a-new-consultant": [
+    {
+      "file": "route-consultant__center.jpg",
+      "caption": "<b>Consultant Center</b> with Priya Shah",
+      "alt": "AnnaBooks Consultant Center with consultant Priya Shah"
+    },
+    {
+      "file": "route-consultant__list.jpg",
+      "caption": "<b>Consultants</b> list",
+      "alt": "AnnaBooks consultants list for Northline Staffing"
+    }
+  ],
+  "one-consultant-for-several-customers": [
+    {
+      "file": "route-consultant__add-multiple-customer-consultant.jpg",
+      "caption": "Consultant with <b>several service agreements</b>",
+      "alt": "AnnaBooks form to add a consultant for multiple customers"
+    }
+  ],
+  "timesheet": [
+    {
+      "file": "route-consultant__timesheet.jpg",
+      "caption": "<b>Consultant Time Sheet</b>",
+      "alt": "AnnaBooks consultant time sheet screen"
+    }
+  ],
+  "timesheet-summary-and-hr-timesheets": [
+    {
+      "file": "route-consultant__timesheet-summary.jpg",
+      "caption": "<b>Timesheet Summary</b>",
+      "alt": "AnnaBooks timesheet summary with March time sheets"
+    },
+    {
+      "file": "route-consultant__hr-timesheets.jpg",
+      "caption": "<b>HR Timesheets</b>",
+      "alt": "AnnaBooks HR timesheets list"
+    }
+  ],
+  "contract-details-and-contract-tracking": [
+    {
+      "file": "route-consultant__contract-details.jpg",
+      "caption": "<b>Contract Details</b>",
+      "alt": "AnnaBooks consultant contract details"
+    },
+    {
+      "file": "route-consultant__contract-tracking.jpg",
+      "caption": "<b>Contract Tracking</b>",
+      "alt": "AnnaBooks consultant contract tracking"
+    }
+  ],
+  "consultant-invoice-and-received-payments": [
+    {
+      "file": "route-consultant__invoice.jpg",
+      "caption": "<b>Consultant Invoice</b>",
+      "alt": "AnnaBooks consultant invoice screen"
+    },
+    {
+      "file": "route-consultant__receive-payment.jpg",
+      "caption": "<b>Received Payments</b>",
+      "alt": "AnnaBooks consultant received payments"
+    }
+  ],
+  "benefit-types-and-benefit-plans": [
+    {
+      "file": "route-consultant__benefits__types.jpg",
+      "caption": "<b>Benefit Types</b>",
+      "alt": "AnnaBooks benefit types"
+    },
+    {
+      "file": "route-consultant__benefits__plans.jpg",
+      "caption": "<b>Benefit Plans</b>",
+      "alt": "AnnaBooks benefit plans"
+    }
+  ],
+  "record-payroll": [
+    {
+      "file": "route-consultant__payroll__record.jpg",
+      "caption": "<b>Record Payroll</b>",
+      "alt": "AnnaBooks record payroll screen"
+    },
+    {
+      "file": "route-consultant__payroll.jpg",
+      "caption": "<b>Payroll Management</b>",
+      "alt": "AnnaBooks payroll management"
+    }
+  ],
+  "staged-payroll-pay-to-consultants-and-history": [
+    {
+      "file": "route-consultant__payroll__staging.jpg",
+      "caption": "<b>Staged payroll</b>",
+      "alt": "AnnaBooks staged payroll batches"
+    },
+    {
+      "file": "route-consultant__payroll__history.jpg",
+      "caption": "<b>Payroll history</b>",
+      "alt": "AnnaBooks payroll history"
+    }
+  ],
+  "sample-consultant-and-payroll-records": [
+    {
+      "file": "route-consultant__list.jpg",
+      "caption": "Northline's consultants in the app",
+      "alt": "Northline Staffing consultants in AnnaBooks"
+    },
+    {
+      "file": "route-consultant__timesheet-summary.jpg",
+      "caption": "Northline's March time sheets",
+      "alt": "Northline Staffing March time sheets in AnnaBooks"
+    }
+  ],
+  "vendor-center-new-vendor-and-purchase-items": [
+    {
+      "file": "route-vendors__center.jpg",
+      "caption": "<b>Vendor Center</b> with Deskline Supplies",
+      "alt": "AnnaBooks Vendor Center with Deskline Supplies"
+    },
+    {
+      "file": "route-vendors__list.jpg",
+      "caption": "<b>Vendors</b> list",
+      "alt": "AnnaBooks vendors list"
+    },
+    {
+      "file": "route-vendors__new-vendor.jpg",
+      "caption": "<b>New Vendor</b> form",
+      "alt": "AnnaBooks new vendor form"
+    }
+  ],
+  "enter-bill-and-create-bill": [
+    {
+      "file": "route-vendors__create-bill.jpg",
+      "caption": "<b>Create Bill</b>",
+      "alt": "AnnaBooks create vendor bill screen"
+    },
+    {
+      "file": "route-vendors__bills.jpg",
+      "caption": "<b>Bills</b> list with Deskline and City Parking bills",
+      "alt": "AnnaBooks vendor bills list"
+    }
+  ],
+  "drafts-captured-mail-and-bill-mail-setup": [
+    {
+      "file": "route-vendors__draft-bills.jpg",
+      "caption": "<b>Drafts &amp; Captured</b>",
+      "alt": "AnnaBooks draft and captured bills"
+    },
+    {
+      "file": "route-vendors__mail-sources.jpg",
+      "caption": "<b>Bill Mail Setup</b>",
+      "alt": "AnnaBooks bill mail setup"
+    }
+  ],
+  "pay-bill-and-vendor-payments": [
+    {
+      "file": "route-vendors__pay-bill.jpg",
+      "caption": "<b>Pay Bill</b>",
+      "alt": "AnnaBooks pay bill screen"
+    },
+    {
+      "file": "route-vendors__payments.jpg",
+      "caption": "<b>Vendor Payments</b> with checks 2204 and 2205",
+      "alt": "AnnaBooks vendor payments list"
+    }
+  ],
+  "vendor-credit-cash-purchase-and-immediate-expenses": [
+    {
+      "file": "route-vendors__vendor-credit.jpg",
+      "caption": "<b>Vendor Credit</b>",
+      "alt": "AnnaBooks vendor credit screen"
+    },
+    {
+      "file": "route-vendors__cash-purchase.jpg",
+      "caption": "<b>Cash Purchase</b>",
+      "alt": "AnnaBooks cash purchase screen"
+    },
+    {
+      "file": "route-vendors__credit-card-expense.jpg",
+      "caption": "<b>Credit Card</b> expense",
+      "alt": "AnnaBooks credit card expense screen"
+    }
+  ],
+  "write-check-and-print-check": [
+    {
+      "file": "route-vendors__write-check.jpg",
+      "caption": "<b>Write Check</b>",
+      "alt": "AnnaBooks write check screen"
+    },
+    {
+      "file": "route-vendors__print-check.jpg",
+      "caption": "<b>Print Check</b>",
+      "alt": "AnnaBooks print check screen"
+    }
+  ],
+  "inviting-a-vendor-and-reviewing-submitted-bills": [
+    {
+      "file": "route-vendors__portal-hub.jpg",
+      "caption": "<b>Invites &amp; Submitted</b>",
+      "alt": "AnnaBooks vendor portal invites and submitted bills"
+    }
+  ],
+  "sample-vendor-records": [
+    {
+      "file": "route-vendors__bills.jpg",
+      "caption": "Northline's vendor bills in the app",
+      "alt": "Northline Staffing vendor bills in AnnaBooks"
+    },
+    {
+      "file": "route-vendors__payments.jpg",
+      "caption": "Northline's bill payments in the app",
+      "alt": "Northline Staffing vendor payments in AnnaBooks"
+    }
+  ],
+  "bank-accounts-and-the-register": [
+    {
+      "file": "route-banking__accounts.jpg",
+      "caption": "<b>Bank Accounts</b> with Harbor Community Bank",
+      "alt": "AnnaBooks bank accounts list with Harbor Community Bank"
+    },
+    {
+      "file": "route-banking__new-account.jpg",
+      "caption": "<b>New Bank Account</b>",
+      "alt": "AnnaBooks new bank account form"
+    }
+  ],
+  "make-deposit": [
+    {
+      "file": "route-banking__make-deposit.jpg",
+      "caption": "<b>Make Deposit</b>",
+      "alt": "AnnaBooks make deposit screen"
+    }
+  ],
+  "transfer-funds": [
+    {
+      "file": "route-banking__transfer-fund.jpg",
+      "caption": "<b>Transfer Fund</b>",
+      "alt": "AnnaBooks transfer funds screen"
+    }
+  ],
+  "reconciliation": [
+    {
+      "file": "route-banking__reconciliations-history.jpg",
+      "caption": "<b>Reconciliations History</b>",
+      "alt": "AnnaBooks reconciliations history"
+    }
+  ],
+  "credit-cards-and-paying-the-card": [
+    {
+      "file": "route-banking__credit-cards__details.jpg",
+      "caption": "<b>Credit Cards Details</b> with Harbor Visa",
+      "alt": "AnnaBooks credit cards with Harbor Visa"
+    },
+    {
+      "file": "route-banking__pay-credit-card.jpg",
+      "caption": "<b>Pay Credit Card</b>",
+      "alt": "AnnaBooks pay credit card screen"
+    }
+  ],
+  "loans-from-a-lender": [
+    {
+      "caption": "<b>Loans</b>: First Civic term loan",
+      "alt": "AnnaBooks loans list",
+      "file": "route-banking__loans__details.jpg"
+    },
+    {
+      "caption": "<b>Lenders</b>: First Civic Bank",
+      "alt": "AnnaBooks loan lenders",
+      "file": "route-banking__loans__lenders.jpg"
+    }
+  ],
+  "organization-loans-payment-and-collection": [
+    {
+      "file": "route-banking__organization-loans__details.jpg",
+      "caption": "<b>Organization Loans</b>",
+      "alt": "AnnaBooks organization loans"
+    },
+    {
+      "file": "route-banking__organization-loans__record-collection.jpg",
+      "caption": "<b>Record Collection</b>",
+      "alt": "AnnaBooks organization loan collection"
+    }
+  ],
+  "sample-banking-records": [
+    {
+      "file": "route-banking__accounts.jpg",
+      "caption": "Northline's bank accounts in the app",
+      "alt": "Northline Staffing bank accounts in AnnaBooks"
+    },
+    {
+      "file": "route-banking__credit-cards__details.jpg",
+      "caption": "Northline's Harbor Visa in the app",
+      "alt": "Northline Staffing credit card in AnnaBooks"
+    }
+  ],
+  "inventory-items-assemblies-and-warehouses": [
+    {
+      "caption": "<b>Inventory Centre</b>: Laptop sleeve, 10 on hand",
+      "alt": "AnnaBooks inventory centre with Laptop sleeve",
+      "file": "route-inventory__center.jpg"
+    },
+    {
+      "caption": "<b>Inventory items</b>",
+      "alt": "AnnaBooks inventory items list",
+      "file": "route-inventory__items.jpg"
+    },
+    {
+      "caption": "<b>Warehouses</b>: Main office",
+      "alt": "AnnaBooks warehouses list",
+      "file": "route-company__support-lists__warehouses.jpg"
+    }
+  ],
+  "build-assembly-and-stock-adjustment": [
+    {
+      "caption": "<b>Stock Adjustments</b>: ADJ-2",
+      "alt": "AnnaBooks stock adjustments list",
+      "file": "route-inventory__stock-adjustment.jpg"
+    },
+    {
+      "caption": "<b>New Stock Adjustment</b>",
+      "alt": "AnnaBooks new stock adjustment form",
+      "file": "route-inventory__stock-adjustment__new.jpg"
+    }
+  ],
+  "chart-of-accounts-and-journal-entry": [
+    {
+      "file": "route-company-account-list.jpg",
+      "caption": "<b>Accounts List</b>: the chart of accounts",
+      "alt": "AnnaBooks chart of accounts for Northline Staffing"
+    },
+    {
+      "file": "route-journalentry.jpg",
+      "caption": "<b>Journal Entry</b>",
+      "alt": "AnnaBooks journal entry screen"
+    }
+  ],
+  "transactions-center": [
+    {
+      "file": "route-transactions.jpg",
+      "caption": "<b>Transactions Center</b>",
+      "alt": "AnnaBooks transactions center"
+    }
+  ],
+  "import-from-file-and-staged-review": [
+    {
+      "file": "route-importcsv.jpg",
+      "caption": "<b>Import From File</b>",
+      "alt": "AnnaBooks import from file screen"
+    },
+    {
+      "file": "route-import-staging.jpg",
+      "caption": "<b>Staged imports</b>",
+      "alt": "AnnaBooks import staging"
+    }
+  ],
+  "budget-recurring-transactions-reminders-and-the-activity-log": [
+    {
+      "file": "route-company__budget.jpg",
+      "caption": "<b>Budget</b>",
+      "alt": "AnnaBooks budget list"
+    },
+    {
+      "file": "route-company__lists__activitylog.jpg",
+      "caption": "<b>Activity Log</b>",
+      "alt": "AnnaBooks activity log"
+    }
+  ],
+  "support-lists-notes-and-sales-persons": [
+    {
+      "caption": "<b>Notes List</b> with customer notes",
+      "alt": "AnnaBooks customer notes list",
+      "file": "route-company__support-lists__notes-list.jpg"
+    },
+    {
+      "caption": "<b>Payment Terms</b>",
+      "alt": "AnnaBooks payment terms list",
+      "file": "route-company__support-lists__payment-term.jpg"
+    }
+  ],
+  "fixed-assets-and-depreciation": [
+    {
+      "caption": "<b>New Fixed Asset</b>",
+      "alt": "AnnaBooks new fixed asset form",
+      "file": "route-company__fixed-assets__new.jpg"
+    },
+    {
+      "caption": "<b>Pending Items</b>",
+      "alt": "AnnaBooks pending fixed asset items",
+      "file": "route-company__fixed-assets__pending-items.jpg"
+    }
+  ],
+  "merge-customers-vendors-accounts-and-items": [
+    {
+      "file": "route-company__merge-accounts__customers.jpg",
+      "caption": "<b>Merge Customers</b>",
+      "alt": "AnnaBooks merge customers screen"
+    }
+  ],
+  "company-dashboard-and-the-company-lists": [
+    {
+      "caption": "<b>Sales Persons</b>: Maya Chen and Jordan Ellis",
+      "alt": "AnnaBooks sales persons list",
+      "file": "route-company__lists__salespersons.jpg"
+    },
+    {
+      "caption": "<b>Accounts List</b>",
+      "alt": "AnnaBooks chart of accounts list",
+      "file": "route-company-account-list.jpg"
+    }
+  ],
+  "every-support-list-page": [
+    {
+      "caption": "<b>Customer Group</b>",
+      "alt": "AnnaBooks customer groups",
+      "file": "route-company__support-lists__customer-group.jpg"
+    },
+    {
+      "caption": "<b>Vendor Group</b>",
+      "alt": "AnnaBooks vendor groups",
+      "file": "route-company__support-lists__vendor-group.jpg"
+    },
+    {
+      "caption": "<b>Shipping Method</b>",
+      "alt": "AnnaBooks shipping methods",
+      "file": "route-company__support-lists__shipping-method.jpg"
+    }
+  ],
+  "budget-reminder-recurring-and-activity-pages": [
+    {
+      "caption": "<b>New Budget</b>",
+      "alt": "AnnaBooks new budget screen",
+      "file": "route-company__new-budget.jpg"
+    },
+    {
+      "caption": "<b>Activity Log</b>",
+      "alt": "AnnaBooks activity log",
+      "file": "route-company__lists__activitylog.jpg"
+    }
+  ],
+  "fixed-asset-screens-and-merge-screens": [
+    {
+      "file": "route-company__fixed-assets__registered-items.jpg",
+      "caption": "<b>Registered Items</b>",
+      "alt": "AnnaBooks registered fixed assets"
+    },
+    {
+      "file": "route-company__merge-accounts__vendors.jpg",
+      "caption": "<b>Merge Vendors</b>",
+      "alt": "AnnaBooks merge vendors screen"
+    }
+  ],
+  "how-every-report-is-built": [
+    {
+      "file": "route-reports__home.jpg",
+      "caption": "<b>Reports Home</b>",
+      "alt": "AnnaBooks reports home"
+    }
+  ],
+  "profit-and-loss-balance-sheet-cash-flow-and-the-ledger": [
+    {
+      "file": "route-reports__company-finance__profit-loss.jpg",
+      "caption": "<b>Profit and Loss</b> for Northline",
+      "alt": "AnnaBooks profit and loss report for Northline Staffing"
+    },
+    {
+      "file": "route-reports__company-finance__balance-sheet.jpg",
+      "caption": "<b>Balance Sheet</b>",
+      "alt": "AnnaBooks balance sheet report"
+    },
+    {
+      "file": "route-reports__company-finance__general-ledger.jpg",
+      "caption": "<b>General Ledger</b>",
+      "alt": "AnnaBooks general ledger report"
+    }
+  ],
+  "sales-reports-and-accounts-receivable": [
+    {
+      "file": "route-reports__sales__customer-summary.jpg",
+      "caption": "<b>Sales by Customer Summary</b>",
+      "alt": "AnnaBooks sales by customer summary report"
+    },
+    {
+      "file": "route-reports__customers-receivable__ar-aging-summary.jpg",
+      "caption": "<b>A/R Aging Summary</b>",
+      "alt": "AnnaBooks accounts receivable aging summary"
+    }
+  ],
+  "payables-and-purchase-reports": [
+    {
+      "file": "route-reports__vendors-payables__ap-aging-summary.jpg",
+      "caption": "<b>A/P Aging Summary</b>",
+      "alt": "AnnaBooks accounts payable aging summary"
+    },
+    {
+      "file": "route-reports__purchase__purchase-by-vendor-summary.jpg",
+      "caption": "<b>Purchase by Vendor Summary</b>",
+      "alt": "AnnaBooks purchase by vendor summary"
+    }
+  ],
+  "inventory-budget-asset-banking-and-payroll-reports": [
+    {
+      "file": "route-reports__banking__deposit-detail.jpg",
+      "caption": "<b>Deposit Detail</b>",
+      "alt": "AnnaBooks deposit detail report"
+    },
+    {
+      "file": "route-reports__payroll__pay-slip-summary.jpg",
+      "caption": "<b>Pay Slip Summary</b>",
+      "alt": "AnnaBooks pay slip summary report"
+    }
+  ],
+  "sample-reports-for-march": [
+    {
+      "file": "route-reports__company-finance__trial-balance.jpg",
+      "caption": "Northline's <b>Trial Balance</b> in the app",
+      "alt": "Northline Staffing trial balance in AnnaBooks"
+    },
+    {
+      "file": "route-reports__company-finance__cash-flow.jpg",
+      "caption": "<b>Cash Flow</b>",
+      "alt": "AnnaBooks cash flow report"
+    }
+  ],
+  "company-preferences-and-account-configuration": [
+    {
+      "file": "route-company-preferences.jpg",
+      "caption": "<b>Company Preferences</b>",
+      "alt": "AnnaBooks company preferences"
+    },
+    {
+      "file": "route-settings__account-configuration.jpg",
+      "caption": "<b>Account Configuration</b>",
+      "alt": "AnnaBooks account configuration settings"
+    }
+  ],
+  "email-notifications-branding-and-checks": [
+    {
+      "file": "route-settings__email-setup.jpg",
+      "caption": "<b>Email Setup</b>",
+      "alt": "AnnaBooks email setup"
+    },
+    {
+      "file": "route-settings__document-branding.jpg",
+      "caption": "<b>Document Branding</b>",
+      "alt": "AnnaBooks document branding settings"
+    },
+    {
+      "file": "route-settings__check-print.jpg",
+      "caption": "<b>Check Print</b> settings",
+      "alt": "AnnaBooks check printing settings"
+    }
+  ],
+  "data-export-data-import-and-leaving-a-company": [
+    {
+      "file": "route-settings__data-export.jpg",
+      "caption": "<b>Data Export</b>",
+      "alt": "AnnaBooks data export"
+    },
+    {
+      "file": "route-settings__data-import.jpg",
+      "caption": "<b>Data Import</b>",
+      "alt": "AnnaBooks data import"
+    }
+  ],
+  "location-class-and-job": [
+    {
+      "file": "route-settings__company-preferences__categories.jpg",
+      "caption": "<b>Categories</b>: location, class and job",
+      "alt": "AnnaBooks location, class and job tracking preferences"
+    }
+  ],
+  "dunning-letters": [
+    {
+      "file": "route-settings__dunning-letter-categories.jpg",
+      "caption": "<b>Dunning Letter Categories</b>",
+      "alt": "AnnaBooks dunning letter categories"
+    }
+  ],
+  "company-details-and-managing-bills": [
+    {
+      "file": "route-settings__company-preferences__update-company-details.jpg",
+      "caption": "<b>Company Details</b> for Northline",
+      "alt": "AnnaBooks company details for Northline Staffing"
+    },
+    {
+      "file": "route-settings__company-preferences__managing-bills-list.jpg",
+      "caption": "<b>Managing Bills</b>",
+      "alt": "AnnaBooks managing bills preference"
+    }
+  ],
+  "client-and-sales-preferences-in-full": [
+    {
+      "file": "route-settings__company-preferences__client-and-sales.jpg",
+      "caption": "<b>Client and Sales</b> preferences",
+      "alt": "AnnaBooks client and sales preferences"
+    },
+    {
+      "file": "route-settings__company-preferences__expenses-by-customer.jpg",
+      "caption": "<b>Expenses by Customer</b>",
+      "alt": "AnnaBooks expenses by customer preference"
+    }
+  ],
+  "mail-branding-checks-and-personal-settings": [
+    {
+      "file": "route-settings__email-signature.jpg",
+      "caption": "<b>Email Signature</b>",
+      "alt": "AnnaBooks email signature settings"
+    },
+    {
+      "file": "route-settings__ui-preferences.jpg",
+      "caption": "<b>UI Preferences</b>",
+      "alt": "AnnaBooks UI preferences"
+    },
+    {
+      "file": "route-settings__messaging-notifications.jpg",
+      "caption": "<b>Messaging Notifications</b>",
+      "alt": "AnnaBooks messaging notification settings"
+    }
+  ],
+  "data-export-and-data-import-screens": [
+    {
+      "file": "route-settings__data-export.jpg",
+      "caption": "<b>Data Export</b> datasets",
+      "alt": "AnnaBooks data export screen"
+    },
+    {
+      "file": "route-settings__data-import.jpg",
+      "caption": "<b>Data Import</b> wizard",
+      "alt": "AnnaBooks data import wizard"
+    }
+  ],
+  "fields-on-a-customer-consultant-and-contract": [
+    {
+      "file": "route-customers__new.jpg",
+      "caption": "<b>New Customer</b> fields",
+      "alt": "AnnaBooks new customer form fields"
+    },
+    {
+      "file": "route-consultant__contract-details.jpg",
+      "caption": "<b>Contract Details</b> fields",
+      "alt": "AnnaBooks consultant contract fields"
+    }
+  ],
+  "fields-on-an-invoice-credit-cash-sale-and-payment": [
+    {
+      "file": "route-customers__new-invoice.jpg",
+      "caption": "<b>New Invoice</b> fields",
+      "alt": "AnnaBooks invoice fields"
+    },
+    {
+      "file": "route-customers__receive-payment.jpg",
+      "caption": "<b>Receive Payment</b> fields",
+      "alt": "AnnaBooks receive payment fields"
+    }
+  ],
+  "fields-on-a-vendor-bill-check-and-expense": [
+    {
+      "file": "route-vendors__new-vendor.jpg",
+      "caption": "<b>New Vendor</b> fields",
+      "alt": "AnnaBooks vendor fields"
+    },
+    {
+      "file": "route-vendors__create-bill.jpg",
+      "caption": "<b>Create Bill</b> fields",
+      "alt": "AnnaBooks bill fields"
+    }
+  ],
+  "fields-on-a-bank-card-deposit-and-loan": [
+    {
+      "file": "route-banking__credit-cards__add.jpg",
+      "caption": "<b>Add Credit Card</b> fields",
+      "alt": "AnnaBooks credit card fields"
+    },
+    {
+      "file": "route-banking__loans__add.jpg",
+      "caption": "<b>Add Loan</b> fields",
+      "alt": "AnnaBooks loan fields"
+    }
+  ],
+  "fields-on-stock-a-journal-an-asset-and-company-setup": [
+    {
+      "file": "route-inventory__new-item.jpg",
+      "caption": "<b>Inventory item</b> fields",
+      "alt": "AnnaBooks inventory item fields"
+    },
+    {
+      "file": "route-journalentry.jpg",
+      "caption": "<b>Journal Entry</b> fields",
+      "alt": "AnnaBooks journal entry fields"
+    }
+  ],
+  "what-each-report-and-activity-screen-offers": [
+    {
+      "file": "route-reports__home.jpg",
+      "caption": "<b>Reports Home</b>",
+      "alt": "AnnaBooks reports home"
+    },
+    {
+      "file": "route-company__lists__activitylog.jpg",
+      "caption": "<b>Activity Log</b>",
+      "alt": "AnnaBooks activity log"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+name: Deploy AnnaBooks Guide (guide.annaccounting.com)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "frontend/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-guide
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build and publish guide
+    runs-on: annabook
+
+    defaults:
+      run:
+        working-directory: frontend
+
+    env:
+      SITE_DIR: dist
+      SITE_URL: https://guide.annaccounting.com/
+      WEB_ROOT: /var/www/html/guide.annaccounting.com
+      ARTIFACTS: /home/github-runner/artifacts/guide
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Check the guide content
+        run: npm run check
+
+      - name: Build
+        run: npm run build
+
+      - name: Check the build output
+        run: |
+          for f in index.html 404.html search-index.json customer-invoice/index.html part-customers-and-sales/index.html \
+                   robots.txt sitemap.xml og-image.png annabooks-logo.jpg annabooks-logo.png annabooks-logo-dark.png \
+                   favicon/favicon.ico favicon/favicon-48x48.png favicon/apple-touch-icon.png \
+                   favicon/android-chrome-192x192.png favicon/android-chrome-512x512.png favicon/site.webmanifest; do
+            if [ ! -f "$SITE_DIR/$f" ]; then
+              echo "::error::Missing $SITE_DIR/$f"
+              exit 1
+            fi
+          done
+          ls "$SITE_DIR"/assets/*.js "$SITE_DIR"/assets/*.css > /dev/null \
+            || { echo "::error::Build produced no JS/CSS bundle"; exit 1; }
+          grep -q "<link rel=\"canonical\" href=\"$SITE_URL\">" "$SITE_DIR/index.html" \
+            || { echo "::error::index.html canonical URL is not $SITE_URL"; exit 1; }
+          grep -q "<link rel=\"canonical\" href=\"${SITE_URL}customer-invoice/\">" "$SITE_DIR/customer-invoice/index.html" \
+            || { echo "::error::Section pages do not carry their own canonical URL"; exit 1; }
+          pages=$(grep -c "<loc>" "$SITE_DIR/sitemap.xml")
+          [ "$pages" -ge 100 ] || { echo "::error::sitemap.xml lists only $pages pages"; exit 1; }
+          echo "Sitemap lists $pages pages"
+
+      # Keep old zip as .prev, then store the new zip under github-runner artifacts
+      - name: Save artifacts (old + new)
+        run: |
+          (cd "$SITE_DIR" && zip -qr ../guide.zip .)
+          mkdir -p "$ARTIFACTS"
+          if [ -f "$ARTIFACTS/guide.zip" ]; then
+            cp "$ARTIFACTS/guide.zip" "$ARTIFACTS/guide.zip.prev"
+          fi
+          cp guide.zip "$ARTIFACTS/guide.zip"
+          echo "Artifacts saved under $ARTIFACTS"
+
+      # The new release is assembled next to the live folder and swapped in with mv,
+      # so visitors never see a half-copied site. The previous release stays in
+      # $WEB_ROOT.prev for an instant rollback.
+      - name: Publish to web root
+        run: |
+          RELEASE="$WEB_ROOT.new"
+          sudo rm -rf "$RELEASE"
+          sudo mkdir -p "$RELEASE"
+          sudo cp -r "$SITE_DIR"/. "$RELEASE"/
+
+          # Certbot webroot challenges live here; carry them across releases.
+          if [ -d "$WEB_ROOT/.well-known" ]; then
+            sudo cp -r "$WEB_ROOT/.well-known" "$RELEASE"/
+          fi
+
+          sudo find "$RELEASE" -type d -exec chmod 755 {} +
+          sudo find "$RELEASE" -type f -exec chmod 644 {} +
+
+          sudo rm -rf "$WEB_ROOT.prev"
+          if [ -d "$WEB_ROOT" ]; then
+            sudo mv "$WEB_ROOT" "$WEB_ROOT.prev"
+          fi
+          sudo mv "$RELEASE" "$WEB_ROOT"
+          echo "Guide published to $WEB_ROOT"
+
+      - name: Check the live site
+        run: |
+          for path in "" robots.txt sitemap.xml search-index.json customer-invoice/ part-reports/; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$SITE_URL$path" || true)
+            if [ "$code" = "200" ]; then
+              echo "OK  $SITE_URL$path"
+            else
+              echo "::warning::$SITE_URL$path returned HTTP $code. Check DNS, the web server site config, and SSL for guide.annaccounting.com."
+            fi
+          done
+          code=$(curl -s -o /dev/null -w "%{http_code}" "${SITE_URL}no-such-page/" || true)
+          if [ "$code" = "404" ]; then
+            echo "OK  unknown pages return 404"
+          else
+            echo "::warning::${SITE_URL}no-such-page/ returned HTTP $code, expected 404. Add 'error_page 404 /404.html;' to the nginx site."
+          fi

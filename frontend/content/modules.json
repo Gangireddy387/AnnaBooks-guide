@@ -1,0 +1,13 @@
+{
+  "part-start-and-company-onboarding": { "icon": "rocket", "desc": "Create your Client account, set up your first company, and load a ready-made chart of accounts." },
+  "part-inside-the-company": { "icon": "home", "desc": "Find your way around: the Overview map, the Tracker, inviting your team, and your profile." },
+  "part-customers-and-sales": { "icon": "users", "desc": "Add customers, send invoices, take payments and prepayments, and issue credits and refunds." },
+  "part-consultants-time-and-payroll": { "icon": "clock", "desc": "Consultants, timesheets, contracts, benefits, and payroll for consulting and staffing firms." },
+  "part-vendors-bills-and-the-vendor-portal": { "icon": "receipt", "desc": "Enter vendor bills, pay them by check, bank, or card, and let suppliers submit bills online." },
+  "part-banking-cards-and-loans": { "icon": "bank", "desc": "Bank accounts, deposits, transfers, reconciliation, company credit cards, and loans." },
+  "part-inventory-and-company-records": { "icon": "box", "desc": "Stock and assemblies, the chart of accounts, journal entries, imports, budgets, and assets." },
+  "part-reports": { "icon": "chart", "desc": "Profit and loss, balance sheet, cash flow, aging, sales, purchase, and payroll reports." },
+  "part-settings-and-a-connected-week": { "icon": "gear", "desc": "Company preferences, email and branding, data export and import, and a week end to end." },
+  "part-pages-and-dialogs": { "icon": "window", "desc": "Every pop-up window you meet on timesheets, invoices, bills, the bank, and settings." },
+  "part-every-field-on-the-screen": { "icon": "list", "desc": "A field-by-field reference for customers, invoices, bills, banking, stock, and reports." }
+}
