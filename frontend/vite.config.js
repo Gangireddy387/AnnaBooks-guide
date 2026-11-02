@@ -76,6 +76,6 @@ export default defineConfig({
     cssCodeSplit: false,
     target: 'es2019',
   },
-  server: { port: 5175, open: false },
-  preview: { port: 4173 },
+  server: { host: true, port: 5175, open: false },
+  preview: { host: true, port: 4173 },
 });
